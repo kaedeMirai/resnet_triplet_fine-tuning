@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# Local tooling
+.codex
+
+# Datasets and generated image folders
+150r/
+150r-filtered/
+150r-filtered-big/
+150r-filtered-big-02/
+150r-filtered-big-03/
+tiles_new/
+
+# Training outputs
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.db
+*.pkl
+*.log
+
+# Keep small curated examples by moving them to examples/ before commit.
+triplets/
+
+# OS/editor noise
+.DS_Store
+.idea/
+.vscode/
+

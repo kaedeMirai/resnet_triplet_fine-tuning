@@ -1,0 +1,11 @@
+1) epochs=20, batch_size=64, lr=1e-4, embedding_dim=256 v1 v2
+2) AdamW даёт худший результат, но на дистанции может дать лучше v3
+3) Заморозка слоёв, обучение на первых 5. А потом размораживаем v4
+4) Уменьшил batch_size с 64 до 16 v5
+5) v6 много эпох на сервере
+6) v7 изменён learning rate под batch size 16
+7) v8 weight_decay изменён до 5e-5
+9) v9 embending 512
+10) v11 512 learning rate 2e-4 epoch 40
+11) v12 server 150 epoch. base
+12) 512 embending v13 epochs=40, batch_size=64, lr=2e-4, embedding_dim=512
